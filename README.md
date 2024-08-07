@@ -1,4 +1,4 @@
-## inolongersmoke@guidoenr
+## Dejé de fumar el 20 Junio 2024
 
 ![image](https://github.com/user-attachments/assets/e3793aba-46db-4768-b240-25081a4c3106)
 
