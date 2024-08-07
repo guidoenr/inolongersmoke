@@ -9,5 +9,5 @@ Clone this repo, change the name to the same in the title, and move it to:
 
 `─$ cd ~/.local/share/gnome-shell/extensions/`
 
-then just restart
+then just restart GNOME (`alt + f2 = restart`)
 
