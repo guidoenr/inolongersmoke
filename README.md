@@ -6,7 +6,9 @@ GNOME Shell extension which counts the days since i stopped smoking, just to hyp
 Color changes when its clicked.
 
 ### you stopped smoking and you run GNOME? 
-1. `git clone https://github.com/guidoenr/inolongersmoke`
-2. `cp ./inolongersmoke ~/.local/share/gnome-shell/extensions/inolongersmoke@guidoenr`
+1. clone the repo `git clone https://github.com/guidoenr/inolongersmoke`
+2. change repo name and move it`cp ./inolongersmoke ~/.local/share/gnome-shell/extensions/inolongersmoke@guidoenr`
+3. restart gnome with `ALT + F2` and type `r` or `restart`
+
 
 
