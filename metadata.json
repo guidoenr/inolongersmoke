@@ -1,0 +1,8 @@
+{
+  "name": "I no longer smoke",
+  "description": "Counts the day since guidoenr stopped smoking",
+  "uuid": "inolongersmoke@guidoenr",
+  "shell-version": [
+    "46"
+  ]
+}
