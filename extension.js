@@ -5,6 +5,7 @@ import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/ex
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
+// actually this is JUNE, but JS devs counts dates indexed by 0
 const START_DATE = new Date(2024, 5, 20);
 
 const calculateDaysSinceStart = () => {
