@@ -1,7 +1,6 @@
 # inolongersmoke@guidoenr
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/f1e9f8c2-7bd0-4f36-8eae-66d61b610b74)
 
 GNOME Shell extensions that counts the day since i stopped smoking, just to hype me up.
 
