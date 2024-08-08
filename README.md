@@ -1,6 +1,7 @@
 ## Dejé de fumar el 20 Junio 2024
 
-![inolongersmoke-ezgif com-crop](https://github.com/user-attachments/assets/31d20937-f3bb-4078-be63-e9b7d67a6a33)
+
+<img src="https://github.com/user-attachments/assets/31d20937-f3bb-4078-be63-e9b7d67a6a33" alt="inolongersmoke" width="350"/>
 
 GNOME Shell extension which counts the days since i stopped smoking, just to hype me up.
 
