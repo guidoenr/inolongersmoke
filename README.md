@@ -1,6 +1,6 @@
 ## Dejé de fumar el 20 Junio 2024
 
-![image](https://github.com/user-attachments/assets/e3793aba-46db-4768-b240-25081a4c3106)
+![inolongersmoke-ezgif com-crop](https://github.com/user-attachments/assets/31d20937-f3bb-4078-be63-e9b7d67a6a33)
 
 GNOME Shell extension which counts the days since i stopped smoking, just to hype me up.
 Color changes when its clicked.
