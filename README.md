@@ -3,7 +3,7 @@
 
 <img src="https://github.com/user-attachments/assets/31d20937-f3bb-4078-be63-e9b7d67a6a33" alt="inolongersmoke" width="350"/>
 
-GNOME Shell extension which counts the days since i stopped smoking, just to hype me up.
+GNOME Shell extension which counts the days since i stopped smoking, just to OVERHYPE ME AS SHIT.
 
 The counter tracks the number of days since the date specified at the top of `extension.js` until today.
 
