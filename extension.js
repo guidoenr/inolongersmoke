@@ -1,12 +1,10 @@
-import GObject from 'gi://GObject';
-import St from 'gi://St';
-import GLib from 'gi://GLib'; 
-import { Extension, gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
-import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
-import * as Main from 'resource:///org/gnome/shell/ui/main.js';
-
 // date since i stopped : 20 June 2024
 const START_DATE = new Date(2024, 5, 20);
+const ExtensionUtils = imports.misc.extensionUtils;
+const Main = imports.ui.main;
+const PanelMenu = imports.ui.panelMenu;
+const _ = ExtensionUtils.gettext;
+const { GObject, St, GLib } = imports.gi;
 
 // function to calculate the number of days since the start date
 const calculateDaysSinceStart = () => {
@@ -66,14 +64,19 @@ class Indicator extends PanelMenu.Button {
     }
 });
 
-export default class IndicatorExampleExtension extends Extension {
+class IndicatorExampleExtension {
     enable() {
         this._indicator = new Indicator();
-        Main.panel.addToStatusArea(this.uuid, this._indicator);
+        Main.panel.addToStatusArea('inolongersmoke@guidoenr', this._indicator);
     }
 
     disable() {
         this._indicator.destroy();
         this._indicator = null;
     }
+}
+
+function init() {
+    ExtensionUtils.initTranslations('inolongersmoke@guidoenr');
+    return new IndicatorExampleExtension();
 }
