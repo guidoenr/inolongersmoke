@@ -30,7 +30,7 @@ class Indicator extends PanelMenu.Button {
         super._init(0.0, _('Days Since Start'));
 
         this._label = new St.Label({
-            text: `no fumo hace ${calculateDaysSinceStart()} días`,
+            text: `🚬 ${calculateDaysSinceStart()} días`,
             style_class: 'indicator-label center-text'
         });
 
@@ -43,10 +43,10 @@ class Indicator extends PanelMenu.Button {
 
     // update the counter display
     _updateCounter() {
-        this._label.text = `no fumo hace ${calculateDaysSinceStart()} días`;
+        this._label.text = `🚬  ${calculateDaysSinceStart()} días`;
         // update it every 24 hours
         this._timeoutId = GLib.timeout_add_seconds(GLib.PRIORITY_DEFAULT, 86400, () => {
-            this._label.text = `no fumo hace ${calculateDaysSinceStart()} días`;
+            this._label.text = `🚬  ${calculateDaysSinceStart()} días`;
             return GLib.SOURCE_CONTINUE;
         });
     }
